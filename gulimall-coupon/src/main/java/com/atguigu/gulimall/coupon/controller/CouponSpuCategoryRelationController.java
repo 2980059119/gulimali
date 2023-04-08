@@ -1,11 +1,11 @@
 package com.atguigu.gulimall.coupon.controller;
 
 
+import com.atguigu.gulimall.coupon.entity.CouponSpuCategoryRelationEntity;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.api.ApiController;
 import com.atguigu.gulimall.coupon.service.CouponSpuCategoryRelationService;
 import com.baomidou.mybatisplus.extension.api.R;
-import com.atguigu.gulimall.coupon.entity.CouponSpuCategoryRelationEntity;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.web.bind.annotation.*;
 

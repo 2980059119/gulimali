@@ -1,8 +1,8 @@
 package com.atguigu.gulimall.coupon.service.impl;
 
+import com.atguigu.gulimall.coupon.service.SpuBoundsService;
 import com.atguigu.gulimall.coupon.entity.SpuBoundsEntity;
 import com.atguigu.gulimall.coupon.mapper.SpuBoundsMapper;
-import com.atguigu.gulimall.coupon.service.SpuBoundsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

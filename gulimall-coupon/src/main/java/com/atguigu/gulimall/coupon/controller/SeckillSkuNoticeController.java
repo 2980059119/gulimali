@@ -1,8 +1,8 @@
 package com.atguigu.gulimall.coupon.controller;
 
 
-import com.atguigu.gulimall.coupon.entity.SeckillSkuNoticeEntity;
 import com.atguigu.gulimall.coupon.service.SeckillSkuNoticeService;
+import com.atguigu.gulimall.coupon.entity.SeckillSkuNoticeEntity;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.api.ApiController;
 import com.baomidou.mybatisplus.extension.api.R;

@@ -1,8 +1,8 @@
 package com.atguigu.gulimall.coupon.controller;
 
 
-import com.atguigu.gulimall.coupon.entity.SpuBoundsEntity;
 import com.atguigu.gulimall.coupon.service.SpuBoundsService;
+import com.atguigu.gulimall.coupon.entity.SpuBoundsEntity;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.api.ApiController;
 import com.baomidou.mybatisplus.extension.api.R;
