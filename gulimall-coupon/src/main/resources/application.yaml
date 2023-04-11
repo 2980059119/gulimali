@@ -1,11 +1,15 @@
 server:
-  port: 8081
+  port: 7000
 spring:
   datasource:
     password: root
     username: root
     url: jdbc:mysql://192.168.146.110:3306/gulimall_sms
     driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
 mybatis-plus:
   mapper-locations: classpath:*/mapper/**/*.xml
   global-config:

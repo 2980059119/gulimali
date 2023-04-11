@@ -2,8 +2,6 @@ package com.atguigu.gulimall.coupon.entity;
 
 import java.util.Date;
 
-import java.io.Serializable;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

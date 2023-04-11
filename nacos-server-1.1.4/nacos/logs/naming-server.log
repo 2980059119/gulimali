@@ -1,0 +1,70 @@
+2023-04-11 21:43:19,699 INFO listen for service meta change
+
+2023-04-11 21:50:04,725 INFO listen for service meta change
+
+2023-04-11 21:50:07,314 INFO [SERVER-INIT] got port: 8848
+
+2023-04-11 21:50:07,314 INFO [SERVER-INIT] got path: /nacos
+
+2023-04-11 21:50:08,618 INFO receive config info: unknown#192.168.146.1:8848#1681221008618#3
+
+
+2023-04-11 21:50:08,619 ERROR [SERVER-STATUS] Exception while sending server status
+
+java.lang.IllegalArgumentException: server: 192.168.146.1:8848 is not in serverlist
+	at com.alibaba.nacos.naming.cluster.ServerListManager.onReceiveServerStatus(ServerListManager.java:198)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerStatusReporter.run(ServerListManager.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-04-11 21:50:10,620 INFO receive config info: unknown#192.168.146.1:8848#1681221010620#3
+
+
+2023-04-11 21:50:12,622 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on, old: [], new: [{"adWeight":0,"alive":true,"ip":"192.168.146.1","key":"192.168.146.1:8848","lastRefTime":1681221010620,"lastRefTimeStr":"2023-04-11 21:50:10","servePort":8848,"site":"unknown","weight":3}]
+
+2023-04-11 21:50:12,622 INFO receive config info: unknown#192.168.146.1:8848#1681221012622#3
+
+
+2023-04-11 21:50:14,625 INFO receive config info: unknown#192.168.146.1:8848#1681221014625#3
+
+
+2023-04-11 21:50:16,629 INFO receive config info: unknown#192.168.146.1:8848#1681221016629#3
+
+
+2023-04-11 21:50:18,629 INFO receive config info: unknown#192.168.146.1:8848#1681221018629#3
+
+
+2023-04-11 21:50:20,633 INFO receive config info: unknown#192.168.146.1:8848#1681221020633#3
+
+
+2023-04-11 21:50:22,635 INFO receive config info: unknown#192.168.146.1:8848#1681221022635#3
+
+
+2023-04-11 21:50:24,639 INFO receive config info: unknown#192.168.146.1:8848#1681221024639#3
+
+
+2023-04-11 21:50:26,642 INFO receive config info: unknown#192.168.146.1:8848#1681221026642#3
+
+
+2023-04-11 21:50:28,642 INFO receive config info: unknown#192.168.146.1:8848#1681221028642#3
+
+
+2023-04-11 21:50:30,643 INFO receive config info: unknown#192.168.146.1:8848#1681221030643#3
+
+
+2023-04-11 21:50:32,647 INFO receive config info: unknown#192.168.146.1:8848#1681221032647#3
+
+
+2023-04-11 21:50:34,647 INFO receive config info: unknown#192.168.146.1:8848#1681221034647#3
+
+
+2023-04-11 21:50:36,648 INFO receive config info: unknown#192.168.146.1:8848#1681221036648#3
+
+
+2023-04-11 21:50:38,652 INFO receive config info: unknown#192.168.146.1:8848#1681221038652#3
+
+

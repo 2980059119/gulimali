@@ -1,0 +1,8 @@
+2023-03-26 14:50:04,979|192.168.146.1|cloudalibaba-sentinel-service|DEFAULT_GROUP|null|cloudalibaba-sentinel-service|-1|pull|not-found|-1|127.0.0.1
+2023-03-26 14:52:48,663|192.168.146.1|cloudalibaba-sentinel-service|DEFAULT_GROUP|null|null|1679813568488|192.168.146.1|persist|pub|-1|d7e6bc294fa3f142a8c276067ecd75e2
+2023-03-26 14:52:48,708|192.168.146.1|cloudalibaba-sentinel-service|DEFAULT_GROUP|null|null|1679813568488|192.168.146.1|notify|ok|215|192.168.146.1:8848
+2023-03-26 14:52:48,725|192.168.146.1|cloudalibaba-sentinel-service|DEFAULT_GROUP|null|null|1679813568488|192.168.146.1|dump|ok|237|181
+2023-03-26 14:52:48,823|192.168.146.1|cloudalibaba-sentinel-service|DEFAULT_GROUP|null|cloudalibaba-sentinel-service|1679813568488|pull|ok|335|127.0.0.1
+2023-03-26 14:54:26,834|192.168.146.1|cloudalibaba-sentinel-service|DEFAULT_GROUP|null|cloudalibaba-sentinel-service|1679813568488|pull|ok|98346|127.0.0.1
+2023-03-26 14:54:29,743|192.168.146.1|cloudalibaba-sentinel-service|DEFAULT_GROUP|null|cloudalibaba-sentinel-service|1679813568488|pull|ok|101255|127.0.0.1
+2023-03-26 17:02:25,025|192.168.146.1|cloudalibaba-sentinel-service|DEFAULT_GROUP|null|cloudalibaba-sentinel-service|1679813568488|pull|ok|7776537|127.0.0.1
