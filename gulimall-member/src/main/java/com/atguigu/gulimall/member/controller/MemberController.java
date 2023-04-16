@@ -2,6 +2,7 @@ package com.atguigu.gulimall.member.controller;
 
 
 import com.atguigu.gulimall.member.entity.MemberEntity;
+import com.atguigu.gulimall.member.feign.CouponFeignService;
 import com.atguigu.gulimall.member.service.MemberService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.api.ApiController;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.io.Serializable;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -27,6 +29,20 @@ public class MemberController extends ApiController {
      */
     @Resource
     private MemberService memberService;
+    @Resource
+    private CouponFeignService couponFeignService;
+
+    @RequestMapping("/coupons")
+    public R test() {
+        MemberEntity memberEntity = new MemberEntity();
+        memberEntity.setNickname("张三");
+        R menbercoupons = couponFeignService.menbercoupons();
+
+        HashMap<String, Object> hashMap = new HashMap<>();
+        hashMap.put("member", memberEntity);
+        hashMap.put("coupons", menbercoupons.getData());
+        return R.ok(hashMap);
+    }
 
     /**
      * 分页查询所有数据

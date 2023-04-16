@@ -1,0 +1,10 @@
+2023-04-12 20:57:31,245 INFO [dump-all-ok] gulimall-coupon.properties+DEFAULT_GROUP, 1681224043000, length=45, md5=b99913d01bdc387a79f9d8691db2c784
+
+2023-04-12 20:57:31,252 INFO [dump-all-ok] gulimall-coupon.properties+DEFAULT_GROUP, 1681224030000, length=45, md5=73e8fa21cbf736499331f4d9195c4598
+
+2023-04-12 20:57:31,255 INFO [dump-all-ok] gulimall-coupon.properties+dev, 1681224798000, length=47, md5=a686935f30ec3f87dc984f6261cfb6d3
+
+2023-04-12 20:57:31,256 INFO [dump-all-ok] gulimall-coupon.properties+test, 1681224730000, length=47, md5=c44d85def7717c64a2454aba0d125856
+
+2023-04-12 20:57:31,277 INFO [dump-all-ok] gulimall-coupon.properties+prop, 1681224713000, length=45, md5=4a9dd9ad936409c7cd9c9c6a05d5b92f
+

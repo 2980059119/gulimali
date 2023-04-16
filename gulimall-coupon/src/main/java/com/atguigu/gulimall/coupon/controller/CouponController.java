@@ -7,10 +7,13 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.api.ApiController;
 import com.baomidou.mybatisplus.extension.api.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.io.Serializable;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -21,12 +24,32 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("coupon")
+@RefreshScope
 public class CouponController extends ApiController {
     /**
      * 服务对象
      */
     @Resource
     private CouponService couponService;
+
+    @Value("${coupon.user.name}")
+    private String name;
+    @Value("${coupon.user.age}")
+    private Integer age;
+
+    @RequestMapping("/test")
+    public R test() {
+        return R.ok("name:" + name + "==age:" + age);
+    }
+
+    @RequestMapping("/member/list")
+    public R menbercoupons() {
+        CouponEntity couponEntity = new CouponEntity();
+        couponEntity.setCouponName("满100减10");
+        HashMap<String, Object> hashMap = new HashMap<>();
+        hashMap.put("coupons", couponEntity);
+        return R.ok(hashMap);
+    }
 
     /**
      * 分页查询所有数据
